@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.azul{
+    color: #4fa5ad;
+}
+.azuld{
+    background: -webkit-linear-gradient(rgb(79,165,173), rgb(0,113,188));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.azuldc{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(79,165,173);
+}
+.bgazul{
+    background-image: linear-gradient( to right, rgb(79,165,173), rgb(0,113,188));
+}
+.branco{
+    color: white;
+}
+.bgbranco{
+    background-color: white;
+}
+.preto{
+    color: rgb(25,25,25);
+}
+.bpreto{
+    background-color:rgb(25,25,25);
+}
+.preto-branco{
+    transition: all 0.5s;
+    color: rgb(25,25,25);
+}
+.preto-branco:hover{
+    color: white;
+}
+.logo{
+    transition: all 0.8s;
+    background-image: url('img/rb_preta.png');
+    background-size: auto 70px;
+    background-repeat: no-repeat;
+}
+.logo:hover{
+    background-image: url('img/logo_preta.png');
+    background-size: auto 70px;
+    background-repeat: no-repeat;
+}
+.light{
+    font-weight: 100;
+}
+.medium{
+    font-weight: 400;
+}
+.bold{
+    font-weight: 700;
+}
+.sbold{
+    font-weight: 500;
+}
+.black{
+    font-weight: 900;
+}
+.linha-horizontal{
+    width: 100%;
+    border: 3px solid rgb(211, 211, 211);
+}
+.parallax {
+    /* The image used */
+    background-image: url("img/FormandosTécnico.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
